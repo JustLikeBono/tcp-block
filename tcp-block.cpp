@@ -3,6 +3,8 @@
 void usage() {
     printf("syntax : tcp-block <interface> <pattern>\n");
 	printf("sample : tcp-block ens32 \"Host: test.gilgil.net\"\n");
+    printf("you don't have enough privilege, use sudo.\n")
+    
 }
 
 
